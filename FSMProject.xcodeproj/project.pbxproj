@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1069992A1F0E202B007D3061 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106999291F0E202B007D3061 /* main.cpp */; };
+		106999341F0E2424007D3061 /* Troll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106999321F0E2424007D3061 /* Troll.cpp */; };
+		106999361F0E27E5007D3061 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106999351F0E27E5007D3061 /* State.cpp */; };
+		106999391F0E2C52007D3061 /* BaseGameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106999371F0E2C52007D3061 /* BaseGameEntity.cpp */; };
+		109F06651F14D4B6001905E3 /* MessageDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F06631F14D4B6001905E3 /* MessageDispatcher.cpp */; };
+		109F06681F15B198001905E3 /* NotificationCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F06661F15B198001905E3 /* NotificationCenter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		106999241F0E202B007D3061 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		106999261F0E202B007D3061 /* FSMProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FSMProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		106999291F0E202B007D3061 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		106999301F0E2098007D3061 /* PCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCH.h; sourceTree = "<group>"; };
+		106999311F0E23A6007D3061 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		106999321F0E2424007D3061 /* Troll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Troll.cpp; sourceTree = "<group>"; };
+		106999331F0E2424007D3061 /* Troll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Troll.h; sourceTree = "<group>"; };
+		106999351F0E27E5007D3061 /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
+		106999371F0E2C52007D3061 /* BaseGameEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseGameEntity.cpp; sourceTree = "<group>"; };
+		106999381F0E2C52007D3061 /* BaseGameEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGameEntity.h; sourceTree = "<group>"; };
+		1069993B1F0E4301007D3061 /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
+		109F06631F14D4B6001905E3 /* MessageDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MessageDispatcher.cpp; sourceTree = "<group>"; };
+		109F06641F14D4B6001905E3 /* MessageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDispatcher.h; sourceTree = "<group>"; };
+		109F06661F15B198001905E3 /* NotificationCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NotificationCenter.cpp; sourceTree = "<group>"; };
+		109F06671F15B198001905E3 /* NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCenter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		106999231F0E202B007D3061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1069991D1F0E202B007D3061 = {
+			isa = PBXGroup;
+			children = (
+				106999281F0E202B007D3061 /* FSMProject */,
+				106999271F0E202B007D3061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		106999271F0E202B007D3061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				106999261F0E202B007D3061 /* FSMProject */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		106999281F0E202B007D3061 /* FSMProject */ = {
+			isa = PBXGroup;
+			children = (
+				106999291F0E202B007D3061 /* main.cpp */,
+				106999301F0E2098007D3061 /* PCH.h */,
+				106999311F0E23A6007D3061 /* State.h */,
+				106999351F0E27E5007D3061 /* State.cpp */,
+				106999321F0E2424007D3061 /* Troll.cpp */,
+				106999331F0E2424007D3061 /* Troll.h */,
+				106999371F0E2C52007D3061 /* BaseGameEntity.cpp */,
+				106999381F0E2C52007D3061 /* BaseGameEntity.h */,
+				1069993B1F0E4301007D3061 /* StateMachine.h */,
+				109F06631F14D4B6001905E3 /* MessageDispatcher.cpp */,
+				109F06641F14D4B6001905E3 /* MessageDispatcher.h */,
+				109F06661F15B198001905E3 /* NotificationCenter.cpp */,
+				109F06671F15B198001905E3 /* NotificationCenter.h */,
+			);
+			path = FSMProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		106999251F0E202B007D3061 /* FSMProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1069992D1F0E202B007D3061 /* Build configuration list for PBXNativeTarget "FSMProject" */;
+			buildPhases = (
+				106999221F0E202B007D3061 /* Sources */,
+				106999231F0E202B007D3061 /* Frameworks */,
+				106999241F0E202B007D3061 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSMProject;
+			productName = FSMProject;
+			productReference = 106999261F0E202B007D3061 /* FSMProject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1069991E1F0E202B007D3061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fengkai;
+				TargetAttributes = {
+					106999251F0E202B007D3061 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 106999211F0E202B007D3061 /* Build configuration list for PBXProject "FSMProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1069991D1F0E202B007D3061;
+			productRefGroup = 106999271F0E202B007D3061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				106999251F0E202B007D3061 /* FSMProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106999221F0E202B007D3061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1069992A1F0E202B007D3061 /* main.cpp in Sources */,
+				109F06681F15B198001905E3 /* NotificationCenter.cpp in Sources */,
+				106999391F0E2C52007D3061 /* BaseGameEntity.cpp in Sources */,
+				106999341F0E2424007D3061 /* Troll.cpp in Sources */,
+				109F06651F14D4B6001905E3 /* MessageDispatcher.cpp in Sources */,
+				106999361F0E27E5007D3061 /* State.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1069992B1F0E202B007D3061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1069992C1F0E202B007D3061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1069992E1F0E202B007D3061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1069992F1F0E202B007D3061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		106999211F0E202B007D3061 /* Build configuration list for PBXProject "FSMProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1069992B1F0E202B007D3061 /* Debug */,
+				1069992C1F0E202B007D3061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1069992D1F0E202B007D3061 /* Build configuration list for PBXNativeTarget "FSMProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1069992E1F0E202B007D3061 /* Debug */,
+				1069992F1F0E202B007D3061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1069991E1F0E202B007D3061 /* Project object */;
+}
