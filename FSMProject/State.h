@@ -4,7 +4,7 @@
 //
 //  Created by fengkai on 2017/7/6.
 //  Copyright © 2017年 fengkai. All rights reserved.
-//
+//  状态模式
 
 #ifndef State_h
 #define State_h
