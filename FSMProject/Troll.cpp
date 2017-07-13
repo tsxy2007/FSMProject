@@ -14,7 +14,10 @@ Troll::Troll(int id):BaseGameEntity(id),power(100)
     m_pStateMachine = new StateMachine<Troll>(this);
     m_pStateMachine->SetCurrentState(State_RunAway::instance());
     SharedNotificaitonCenter()->addObserver(this, CC_CALLFUNCO_SELECTOR(Troll::ChangeState), "powerplus", nullptr);
-    SharedNotificaitonCenter()->removeAllObserver(this);
+//    SharedNotificaitonCenter()->removeAllObserver(this);
+    m_invoker = new Invoker<Troll>();
+    m_invoker->setCommand(new  ConcerteCommand( this ) );
+    
 }
 
 Troll::~Troll()
@@ -32,9 +35,9 @@ void Troll::Update()
 
 void Troll::ChangeState(State<Troll> *pNewState)
 {
-    if (m_pStateMachine)
+    if (this->m_pStateMachine)
     {
-        m_pStateMachine->ChangeState(pNewState);
+        this->m_pStateMachine->ChangeState(pNewState);
     }
 }
 
@@ -62,6 +65,11 @@ bool Troll::isPower()
 
 void Troll::ChangeState(BaseGameEntity *object)
 {
-    ChangeState(State_RunAway::instance());
+    m_invoker->ExecuteCommand();
+}
+
+void Troll::Run( )
+{
+    this->ChangeState(State_RunAway::instance());
 }
 

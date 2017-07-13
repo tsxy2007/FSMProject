@@ -18,7 +18,9 @@
 #include "State.h"
 #include "StateMachine.h"
 #include "BaseGameEntity.h"
+#include "Command.h"
 #include "Troll.h"
+
 
 #include "MessageDispatcher.h"
 using namespace std;

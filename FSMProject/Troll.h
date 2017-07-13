@@ -14,6 +14,7 @@
 class Troll : public BaseGameEntity{
 private:
     StateMachine<Troll>* m_pStateMachine;
+    Invoker<Troll>* m_invoker;
     int power;
 public:
     void subPower();
@@ -25,6 +26,7 @@ public:
     void Update();
     void ChangeState(State<Troll>* pNewState);
     void ChangeState(BaseGameEntity* object);
+    void Run();
 };
 
 

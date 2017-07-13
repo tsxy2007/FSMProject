@@ -91,4 +91,6 @@ void StateMachine<Type>::RevertToPreviousState()
     ChangeState(m_pPreviousState);
 }
 
+
+
 #endif /* StateMachine_hpp */
