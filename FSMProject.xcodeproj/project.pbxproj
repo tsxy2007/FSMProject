@@ -12,6 +12,7 @@
 		106999361F0E27E5007D3061 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106999351F0E27E5007D3061 /* State.cpp */; };
 		106999391F0E2C52007D3061 /* BaseGameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106999371F0E2C52007D3061 /* BaseGameEntity.cpp */; };
 		106BCF6B1F178FF500770E27 /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106BCF691F178FF500770E27 /* Command.cpp */; };
+		106BCF6D1F1798EC00770E27 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 106BCF6C1F1798EC00770E27 /* README.md */; };
 		109F06651F14D4B6001905E3 /* MessageDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F06631F14D4B6001905E3 /* MessageDispatcher.cpp */; };
 		109F06681F15B198001905E3 /* NotificationCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F06661F15B198001905E3 /* NotificationCenter.cpp */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		1069993B1F0E4301007D3061 /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
 		106BCF691F178FF500770E27 /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
 		106BCF6A1F178FF500770E27 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		106BCF6C1F1798EC00770E27 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		109F06631F14D4B6001905E3 /* MessageDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MessageDispatcher.cpp; sourceTree = "<group>"; };
 		109F06641F14D4B6001905E3 /* MessageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDispatcher.h; sourceTree = "<group>"; };
 		109F06661F15B198001905E3 /* NotificationCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NotificationCenter.cpp; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		1069991D1F0E202B007D3061 = {
 			isa = PBXGroup;
 			children = (
+				106BCF6C1F1798EC00770E27 /* README.md */,
 				106999281F0E202B007D3061 /* FSMProject */,
 				106999271F0E202B007D3061 /* Products */,
 			);
@@ -159,6 +162,7 @@
 				106999391F0E2C52007D3061 /* BaseGameEntity.cpp in Sources */,
 				106999341F0E2424007D3061 /* Troll.cpp in Sources */,
 				109F06651F14D4B6001905E3 /* MessageDispatcher.cpp in Sources */,
+				106BCF6D1F1798EC00770E27 /* README.md in Sources */,
 				106999361F0E27E5007D3061 /* State.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
