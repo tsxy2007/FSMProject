@@ -9,12 +9,13 @@
 #include "PCH.h"
 
 
-ConcerteCommand::ConcerteCommand(Troll* rever) : receiver(rever)
+ConcerteCommand::ConcerteCommand(BaseGameEntity* rever) : receiver(rever)
 {
     
 }
 
 void ConcerteCommand::Execute()
 {
-    this->receiver->Run();
+    receiver->Run();
 }
+

@@ -10,21 +10,23 @@
 #ifndef Command_hpp
 #define Command_hpp
 
-class Troll;
+class BaseGameEntity;
 template <typename Type>
 class ICommand {
     
 public:
     virtual void Execute() = 0 ;
+    ~ICommand(){};
 };
 
 
-class ConcerteCommand : public ICommand<Troll> {
+class ConcerteCommand : public ICommand<BaseGameEntity> {
     
 private:
-    Troll* receiver;
+    BaseGameEntity* receiver;
 public:
-    ConcerteCommand(Troll* reveive);
+    ConcerteCommand(BaseGameEntity* reveive);
+    ~ConcerteCommand(){};
     void Execute();
 };
 
@@ -37,6 +39,7 @@ private:
 public:
     void setCommand(ICommand<Type>* com);
     void ExecuteCommand();
+    
 };
 
 template <typename Type>

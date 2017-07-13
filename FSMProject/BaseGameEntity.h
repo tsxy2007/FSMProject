@@ -20,6 +20,7 @@ public:
     BaseGameEntity(int id);
     virtual ~BaseGameEntity();
     int ID() const;
+    void Run();
     
 };
 

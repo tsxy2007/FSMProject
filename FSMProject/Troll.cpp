@@ -15,7 +15,7 @@ Troll::Troll(int id):BaseGameEntity(id),power(100)
     m_pStateMachine->SetCurrentState(State_RunAway::instance());
     SharedNotificaitonCenter()->addObserver(this, CC_CALLFUNCO_SELECTOR(Troll::ChangeState), "powerplus", nullptr);
 //    SharedNotificaitonCenter()->removeAllObserver(this);
-    m_invoker = new Invoker<Troll>();
+    m_invoker = new Invoker<BaseGameEntity>();
     m_invoker->setCommand(new  ConcerteCommand( this ) );
     
 }

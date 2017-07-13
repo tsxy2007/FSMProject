@@ -27,3 +27,8 @@ void BaseGameEntity::SetID(int val)
 {
     m_ID = val;
 }
+
+void BaseGameEntity::Run()
+{
+    
+}
