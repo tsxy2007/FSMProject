@@ -9,7 +9,13 @@
 
 #include "PCH.h"
 int main(int argc, const char * argv[]) {
-    Troll* t = new Troll(1);
+    typedef BaseFactory<Troll> TrollFactory;
+    TrollFactory& factory = TrollFactory::GetInstance();
+    factory.registerFactory<Troll>("Troll");
+    
+    Troll* t  = factory.createProduct("Troll", 1);
+//    Troll* t = (Troll*)SimpleFactory::GetIntance()->CreateBaseEnity("Troll");
+//    Troll* t = (Troll*)BaseGameEntityFactory::GetIntance()->CreateBaseEnity("Troll");
 //    State_RunAway* pState = new State_RunAway( );
 //    t->ChangeState( pState );
     while (true) {

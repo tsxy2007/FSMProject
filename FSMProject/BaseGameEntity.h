@@ -14,13 +14,14 @@ class BaseGameEntity
     
 private:
     int m_ID;
-    static int m_iNextValidID;
+    static int m_iNextValidID ;
 public:
     void SetID(int val);
     BaseGameEntity(int id);
     virtual ~BaseGameEntity();
     int ID() const;
     void Run();
+    static int GetNextID();
     
 };
 

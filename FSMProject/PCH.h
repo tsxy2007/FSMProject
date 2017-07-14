@@ -14,12 +14,16 @@
 #include <iostream>
 #include <unistd.h>
 #include <list> 
+#include <map>
 #include "NotificationCenter.h"
 #include "State.h"
 #include "StateMachine.h"
 #include "BaseGameEntity.h"
 #include "Command.h"
 #include "Troll.h"
+#include "SimpleFactory.h"
+#include "Factory.h"
+#include "AbstractFactory.h"
 
 
 #include "MessageDispatcher.h"

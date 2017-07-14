@@ -22,6 +22,7 @@ public:
     bool isLei();
     bool isPower();
     Troll(int val);
+    Troll();
     ~Troll();
     void Update();
     void ChangeState(State<Troll>* pNewState);
