@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
     factory.registerFactory<Troll>("Troll");
     
     Troll* t  = factory.createProduct("Troll", 1);
+    Troll* t1 = factory.createProduct("Troll", 2);
 //    Troll* t = (Troll*)SimpleFactory::GetIntance()->CreateBaseEnity("Troll");
 //    Troll* t = (Troll*)BaseGameEntityFactory::GetIntance()->CreateBaseEnity("Troll");
 //    State_RunAway* pState = new State_RunAway( );
