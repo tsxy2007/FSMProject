@@ -24,7 +24,7 @@ void TempLateA::Do1()
     cout<<"TemplateA do 1"<<endl;
 }
 
-void TempLateA::Do2()
+void TempLateA::Do3()
 {
-    cout<<"TemplateA do 2"<<endl;
+    cout<<"TemplateA do 3"<<endl;
 }

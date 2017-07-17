@@ -47,7 +47,7 @@ public:
     TempLateA();
     ~TempLateA();
     void Do1();
-    void Do2();
+    void Do3();
 };
 
 #endif /* Template_hpp */

@@ -23,7 +23,6 @@ int main(int argc, const char * argv[]) {
     
     TempLateA* ta = new TempLateA();
     ta->Run();
-    
     while (true) {
         t->Update() ;
         usleep(33 * 1000);
