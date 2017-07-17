@@ -10,6 +10,9 @@
 #ifndef Template_hpp
 #define Template_hpp
 
+/**
+ 定义接口 有哪些步骤完成！！
+ */
 class TemplateInterface {
     
 public:
@@ -24,6 +27,9 @@ public:
     virtual void Do3() = 0;
 };
 
+/**
+ 实现接口，并且做成钩子，让子类决定实现那个方法
+ */
 class TemplateBase : public TemplateInterface{
 public:
     virtual void Do1( ) {};
@@ -31,7 +37,10 @@ public:
     virtual void Do3( ) {};
     
 };
-
+/**
+ 
+ 自己判断哪个该实现！！！！
+ */
 class TempLateA : public TemplateBase{
     
 public:
