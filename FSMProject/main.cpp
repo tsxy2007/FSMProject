@@ -19,9 +19,15 @@ int main(int argc, const char * argv[]) {
 //    Troll* t = (Troll*)BaseGameEntityFactory::GetIntance()->CreateBaseEnity("Troll");
 //    State_RunAway* pState = new State_RunAway( );
 //    t->ChangeState( pState );
+    
+    
+    TempLateA* ta = new TempLateA();
+    ta->Run();
+    
     while (true) {
         t->Update() ;
         usleep(33 * 1000);
     }
+   
     return 0;
 }
