@@ -25,6 +25,7 @@
 #include "Factory.h"
 #include "AbstractFactory.h"
 #include "Template.h"
+#include "Iterator.h"
 
 
 #include "MessageDispatcher.h"

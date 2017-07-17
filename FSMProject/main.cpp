@@ -20,6 +20,15 @@ int main(int argc, const char * argv[]) {
 //    State_RunAway* pState = new State_RunAway( );
 //    t->ChangeState( pState );
     
+    int m[10] = {1,2,3,4,5,6,7,8,9,10};
+    
+    arrayIterator<int> ArrayIterator(m,10);
+    
+    while (ArrayIterator.hasNext())
+    {
+        int b = ArrayIterator.next();
+        cout<<"ArrayIterator next is "<<b<<endl;
+    }
     
     TempLateA* ta = new TempLateA();
     ta->Run();

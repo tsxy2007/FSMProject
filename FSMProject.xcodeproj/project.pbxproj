@@ -17,6 +17,7 @@
 		106BCF751F18D14900770E27 /* Factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106BCF731F18D14900770E27 /* Factory.cpp */; };
 		106BCF781F18D40600770E27 /* AbstractFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106BCF761F18D40600770E27 /* AbstractFactory.cpp */; };
 		106BCF7B1F1C889000770E27 /* Template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106BCF791F1C889000770E27 /* Template.cpp */; };
+		106BCF7E1F1CDB0900770E27 /* Iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106BCF7C1F1CDB0900770E27 /* Iterator.cpp */; };
 		109F06651F14D4B6001905E3 /* MessageDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F06631F14D4B6001905E3 /* MessageDispatcher.cpp */; };
 		109F06681F15B198001905E3 /* NotificationCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F06661F15B198001905E3 /* NotificationCenter.cpp */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,8 @@
 		106BCF771F18D40600770E27 /* AbstractFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
 		106BCF791F1C889000770E27 /* Template.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Template.cpp; sourceTree = "<group>"; };
 		106BCF7A1F1C889000770E27 /* Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Template.h; sourceTree = "<group>"; };
+		106BCF7C1F1CDB0900770E27 /* Iterator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Iterator.cpp; sourceTree = "<group>"; };
+		106BCF7D1F1CDB0900770E27 /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
 		109F06631F14D4B6001905E3 /* MessageDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MessageDispatcher.cpp; sourceTree = "<group>"; };
 		109F06641F14D4B6001905E3 /* MessageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDispatcher.h; sourceTree = "<group>"; };
 		109F06661F15B198001905E3 /* NotificationCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NotificationCenter.cpp; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				106BCF771F18D40600770E27 /* AbstractFactory.h */,
 				106BCF791F1C889000770E27 /* Template.cpp */,
 				106BCF7A1F1C889000770E27 /* Template.h */,
+				106BCF7C1F1CDB0900770E27 /* Iterator.cpp */,
+				106BCF7D1F1CDB0900770E27 /* Iterator.h */,
 			);
 			path = FSMProject;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				106999391F0E2C52007D3061 /* BaseGameEntity.cpp in Sources */,
 				106999341F0E2424007D3061 /* Troll.cpp in Sources */,
 				109F06651F14D4B6001905E3 /* MessageDispatcher.cpp in Sources */,
+				106BCF7E1F1CDB0900770E27 /* Iterator.cpp in Sources */,
 				106BCF6D1F1798EC00770E27 /* README.md in Sources */,
 				106BCF721F18CF4800770E27 /* SimpleFactory.cpp in Sources */,
 				106999361F0E27E5007D3061 /* State.cpp in Sources */,
