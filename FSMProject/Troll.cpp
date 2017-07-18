@@ -70,6 +70,7 @@ void Troll::ChangeState(BaseGameEntity *object)
 
 void Troll::Run( )
 {
+    BaseGameEntity::Run();
     this->ChangeState(State_RunAway::instance());
 }
 
