@@ -22,7 +22,7 @@ Troll::Troll(int id):BaseGameEntity(id),power(100)
 
 Troll::~Troll()
 {
-    
+    BaseGameEntity::~BaseGameEntity();
 }
 
 void Troll::Update()

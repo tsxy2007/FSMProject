@@ -34,8 +34,7 @@ public:
 };
 
 template <typename Type>
-arrayIterator<Type>::arrayIterator(Type* array , int lenght)
-:mData(array), mSize(lenght),mPosition(0)
+arrayIterator<Type>::arrayIterator(Type* array , int lenght):mData(array), mSize(lenght),mPosition(0)
 {
 //    mData = new Type();
 //    for (int i = 0 ; i<lenght; i++)
