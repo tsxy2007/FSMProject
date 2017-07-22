@@ -15,6 +15,7 @@
 #include <unistd.h>
 #include <list> 
 #include <map>
+#include <vector>
 #include "NotificationCenter.h"
 #include "State.h"
 #include "StateMachine.h"
@@ -26,6 +27,7 @@
 #include "AbstractFactory.h"
 #include "Template.h"
 #include "Iterator.h"
+#include "MenuComponent.h"
 
 
 #include "MessageDispatcher.h"

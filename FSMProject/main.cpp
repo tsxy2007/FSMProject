@@ -32,7 +32,21 @@ int main(int argc, const char * argv[]) {
     
     TempLateA* ta = new TempLateA();
     ta->Run();
-    while (true) {
+    
+    
+    Menu menu("menu_root");
+
+    menu.add(new MenuItem("menu_item_1"));
+    
+    Menu* menu_1 = new Menu("menu_1");
+    menu_1->add(new MenuItem("menu_1_item_1"));
+    menu.add(menu_1);
+    
+    menu.print();
+    
+    
+    while (true)
+    {
         t->Update() ;
         usleep(33 * 1000);
     }
