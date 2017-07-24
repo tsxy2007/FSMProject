@@ -55,6 +55,15 @@ int main(int argc, const char * argv[]) {
     toolTravel = new TrainStrategy();
     toolTravel->travelAlgorithm();
     
+    Property* pro = new PropertySpeed( );
+    pro->print();
+    Property* pro1 = new AddPropertySpeed( pro );
+    pro1->print();
+    
+    Property* pro2 = new SubPropertySpeed( pro1);
+    pro2->print();
+    
+    
     while (true)
     {
         t->Update() ;

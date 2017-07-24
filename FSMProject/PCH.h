@@ -30,6 +30,7 @@
 #include "Proxy.h"
 #include "MenuComponent.h"
 #include "Strategy.h"
+#include "Decorator.h"
 
 
 #include "MessageDispatcher.h"

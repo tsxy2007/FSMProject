@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		101C1C3C1F25905700DB5101 /* Proxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 101C1C3A1F25905700DB5101 /* Proxy.cpp */; };
 		101C1C3F1F25D7FD00DB5101 /* Strategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 101C1C3D1F25D7FD00DB5101 /* Strategy.cpp */; };
+		101C1C5F1F25F17000DB5101 /* Decorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 101C1C5D1F25F17000DB5101 /* Decorator.cpp */; };
 		1069992A1F0E202B007D3061 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106999291F0E202B007D3061 /* main.cpp */; };
 		106999341F0E2424007D3061 /* Troll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106999321F0E2424007D3061 /* Troll.cpp */; };
 		106999361F0E27E5007D3061 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106999351F0E27E5007D3061 /* State.cpp */; };
@@ -42,6 +43,8 @@
 		101C1C3B1F25905700DB5101 /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
 		101C1C3D1F25D7FD00DB5101 /* Strategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Strategy.cpp; sourceTree = "<group>"; };
 		101C1C3E1F25D7FD00DB5101 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		101C1C5D1F25F17000DB5101 /* Decorator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Decorator.cpp; sourceTree = "<group>"; };
+		101C1C5E1F25F17000DB5101 /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
 		106999261F0E202B007D3061 /* FSMProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FSMProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		106999291F0E202B007D3061 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		106999301F0E2098007D3061 /* PCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCH.h; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				2B4BA5721F22DC2A00CD375E /* MenuComponent.h */,
 				101C1C3D1F25D7FD00DB5101 /* Strategy.cpp */,
 				101C1C3E1F25D7FD00DB5101 /* Strategy.h */,
+				101C1C5D1F25F17000DB5101 /* Decorator.cpp */,
+				101C1C5E1F25F17000DB5101 /* Decorator.h */,
 			);
 			path = FSMProject;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101C1C5F1F25F17000DB5101 /* Decorator.cpp in Sources */,
 				101C1C3F1F25D7FD00DB5101 /* Strategy.cpp in Sources */,
 				101C1C3C1F25905700DB5101 /* Proxy.cpp in Sources */,
 				106BCF781F18D40600770E27 /* AbstractFactory.cpp in Sources */,
