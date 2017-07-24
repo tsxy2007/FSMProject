@@ -5,6 +5,7 @@
 //  Created by fengkai on 2017/7/12.
 //  Copyright © 2017年 fengkai. All rights reserved.
 //  通知模式
+//  单例模式
 
 #ifndef NotificationCenter_hpp
 #define NotificationCenter_hpp
