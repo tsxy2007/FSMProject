@@ -35,6 +35,7 @@ class AddPropertySpeed : public Property
 {
 private:
     Property* mPro;
+    float addSpeed;
 public:
     AddPropertySpeed(Property * speed);
     virtual void print() ;
@@ -45,6 +46,7 @@ public:
 class SubPropertySpeed : public Property {
 private:
     Property* mPro;
+    float subSpeed;
 public:
     SubPropertySpeed(Property* pt);
     virtual void print();

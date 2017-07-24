@@ -13,7 +13,7 @@ void PropertySpeed::print()
     cout<< speed<<endl;
 }
 
-AddPropertySpeed::AddPropertySpeed(Property* pro) : mPro(pro)
+AddPropertySpeed::AddPropertySpeed(Property* pro) : mPro(pro) , addSpeed(3.0f)
 {
     
 }
@@ -34,10 +34,11 @@ float AddPropertySpeed::GetSpeed()
     {
         return 0.0f;
     }
-    return mPro->GetSpeed();
+    return mPro->GetSpeed() + addSpeed;
 }
 
-SubPropertySpeed::SubPropertySpeed(Property* pro):mPro(pro)
+SubPropertySpeed::SubPropertySpeed(Property* pro):mPro(pro),
+   subSpeed(5.0f)
 {
     
 }
@@ -48,7 +49,7 @@ float SubPropertySpeed::GetSpeed()
     {
         return 0.0f;
     }
-    return mPro->GetSpeed();
+    return mPro->GetSpeed() - subSpeed;
 }
 
 std::string SubPropertySpeed::sub()
