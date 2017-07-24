@@ -33,11 +33,6 @@ int main(int argc, const char * argv[]) {
     TempLateA* ta = new TempLateA();
     ta->Run();
     
-
-    RealSubject* sub = new RealSubject();
-    Proxy* proxy = new Proxy(sub);
-    proxy->Request();
-    
     
     Menu menu("menu_root");
 
@@ -55,7 +50,6 @@ int main(int argc, const char * argv[]) {
         t->Update() ;
         usleep(33 * 1000);
     }
-    
    
     return 0;
 }

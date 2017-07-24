@@ -21,6 +21,7 @@
 		106BCF7E1F1CDB0900770E27 /* Iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 106BCF7C1F1CDB0900770E27 /* Iterator.cpp */; };
 		109F06651F14D4B6001905E3 /* MessageDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F06631F14D4B6001905E3 /* MessageDispatcher.cpp */; };
 		109F06681F15B198001905E3 /* NotificationCenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F06661F15B198001905E3 /* NotificationCenter.cpp */; };
+		2B4BA5731F22DC2A00CD375E /* MenuComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BA5711F22DC2A00CD375E /* MenuComponent.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,8 @@
 		109F06641F14D4B6001905E3 /* MessageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDispatcher.h; sourceTree = "<group>"; };
 		109F06661F15B198001905E3 /* NotificationCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NotificationCenter.cpp; sourceTree = "<group>"; };
 		109F06671F15B198001905E3 /* NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCenter.h; sourceTree = "<group>"; };
+		2B4BA5711F22DC2A00CD375E /* MenuComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuComponent.cpp; sourceTree = "<group>"; };
+		2B4BA5721F22DC2A00CD375E /* MenuComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuComponent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				106BCF7D1F1CDB0900770E27 /* Iterator.h */,
 				101C1C3A1F25905700DB5101 /* Proxy.cpp */,
 				101C1C3B1F25905700DB5101 /* Proxy.h */,
+				2B4BA5711F22DC2A00CD375E /* MenuComponent.cpp */,
+				2B4BA5721F22DC2A00CD375E /* MenuComponent.h */,
 			);
 			path = FSMProject;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				101C1C3C1F25905700DB5101 /* Proxy.cpp in Sources */,
 				106BCF781F18D40600770E27 /* AbstractFactory.cpp in Sources */,
 				106BCF7B1F1C889000770E27 /* Template.cpp in Sources */,
+				2B4BA5731F22DC2A00CD375E /* MenuComponent.cpp in Sources */,
 				1069992A1F0E202B007D3061 /* main.cpp in Sources */,
 				106BCF6B1F178FF500770E27 /* Command.cpp in Sources */,
 				106BCF751F18D14900770E27 /* Factory.cpp in Sources */,

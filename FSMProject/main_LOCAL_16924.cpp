@@ -33,29 +33,16 @@ int main(int argc, const char * argv[]) {
     TempLateA* ta = new TempLateA();
     ta->Run();
     
-
     RealSubject* sub = new RealSubject();
     Proxy* proxy = new Proxy(sub);
     proxy->Request();
     
-    
-    Menu menu("menu_root");
-
-    menu.add(new MenuItem("menu_item_1"));
-    
-    Menu* menu_1 = new Menu("menu_1");
-    menu_1->add(new MenuItem("menu_1_item_1"));
-    menu.add(menu_1);
-    
-    menu.print();
-    
-    
-    while (true)
-    {
+    while (true) {
         t->Update() ;
         usleep(33 * 1000);
     }
     
+    auto_ptr<<#class _Tp#>>
    
     return 0;
 }
