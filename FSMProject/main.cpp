@@ -56,6 +56,6 @@ int main(int argc, const char * argv[]) {
         usleep(33 * 1000);
     }
     
-   
+    auto_ptr<RealSubject*> rt ;
     return 0;
 }
