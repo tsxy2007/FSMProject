@@ -37,6 +37,11 @@ float AddPropertySpeed::GetSpeed()
     return mPro->GetSpeed() + addSpeed;
 }
 
+void AddPropertySpeed::huanyuan()
+{
+    addSpeed = 0.0f;
+}
+
 SubPropertySpeed::SubPropertySpeed(Property* pro):mPro(pro),
    subSpeed(5.0f)
 {

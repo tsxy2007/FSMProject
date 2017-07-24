@@ -41,6 +41,7 @@ public:
     virtual void print() ;
     virtual std::string add();
     virtual float GetSpeed();
+    virtual void huanyuan();
 };
 
 class SubPropertySpeed : public Property {
