@@ -32,10 +32,17 @@ int main(int argc, const char * argv[]) {
     
     TempLateA* ta = new TempLateA();
     ta->Run();
+    
+    RealSubject* sub = new RealSubject();
+    Proxy* proxy = new Proxy(sub);
+    proxy->Request();
+    
     while (true) {
         t->Update() ;
         usleep(33 * 1000);
     }
+    
+    auto_ptr<<#class _Tp#>>
    
     return 0;
 }

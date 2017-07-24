@@ -26,6 +26,7 @@
 #include "AbstractFactory.h"
 #include "Template.h"
 #include "Iterator.h"
+#include "Proxy.h"
 
 
 #include "MessageDispatcher.h"
