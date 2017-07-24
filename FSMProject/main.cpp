@@ -49,6 +49,11 @@ int main(int argc, const char * argv[]) {
     
     menu.print();
     
+    TravelStrategy* toolTravel = new AirPlaneStrategy();
+    toolTravel->travelAlgorithm()  ;
+    delete toolTravel;
+    toolTravel = new TrainStrategy();
+    toolTravel->travelAlgorithm();
     
     while (true)
     {

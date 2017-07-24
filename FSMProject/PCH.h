@@ -29,6 +29,7 @@
 #include "Iterator.h"
 #include "Proxy.h"
 #include "MenuComponent.h"
+#include "Strategy.h"
 
 
 #include "MessageDispatcher.h"
