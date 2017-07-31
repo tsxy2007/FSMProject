@@ -4,7 +4,7 @@
 //
 //  Created by fengkai on 2017/7/6.
 //  Copyright © 2017年 fengkai. All rights reserved.
-//  状态及
+//  状态机
 
 #ifndef StateMachine_hpp
 #define StateMachine_hpp

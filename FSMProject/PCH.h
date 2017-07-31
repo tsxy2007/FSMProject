@@ -31,6 +31,7 @@
 #include "MenuComponent.h"
 #include "Strategy.h"
 #include "Decorator.h"
+#include "Observer.h"
 
 
 #include "MessageDispatcher.h"

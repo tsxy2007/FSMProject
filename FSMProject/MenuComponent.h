@@ -6,6 +6,10 @@
 //  Copyright © 2017年 fengkai. All rights reserved.
 //
 
+/**
+ 组合模式
+
+ */
 #ifndef MenuComponent_hpp
 #define MenuComponent_hpp
 

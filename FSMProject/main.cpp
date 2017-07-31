@@ -66,6 +66,11 @@ int main(int argc, const char * argv[]) {
     pro1->huanyuan();
     pro2->print();
     
+    Observer* observer = new Observer();
+    Test_Subject* test = new Test_Subject( );
+    observer->addObserver(test);
+    observer->notify();
+    
     while (true)
     {
         t->Update() ;
