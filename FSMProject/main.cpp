@@ -71,6 +71,19 @@ int main(int argc, const char * argv[]) {
     observer->addObserver(test);
     observer->notify();
     
+    QQMediator qq;
+    Monitor studentMonitor( "Vincent" );
+    TuanZhiShu studentTZS( "Robert" );
+    StudentA    studenta("A");
+    qq.add_student(&studentMonitor);
+    qq.add_student(&studentTZS);
+    qq.add_student(&studenta);
+    
+    studentMonitor.set_content("明天开会！！！！！");
+    studentTZS.set_content("ok!!!!!!");
+    studenta.set_content("no fuck!!!!!");
+    qq.notify(&studentMonitor);
+    
     while (true)
     {
         t->Update() ;

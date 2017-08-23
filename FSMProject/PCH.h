@@ -32,6 +32,7 @@
 #include "Strategy.h"
 #include "Decorator.h"
 #include "Observer.h"
+#include "Mediator.hpp"
 
 
 #include "MessageDispatcher.h"
