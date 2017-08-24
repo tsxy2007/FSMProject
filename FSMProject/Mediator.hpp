@@ -106,7 +106,8 @@ public:
         student->talk();
         for (int i = 0 ; i<students.size(); i++)
         {
-            students[i]->talk();
+            if (student != students[i])
+                students[i]->talk();
         }
     }
     virtual void chart(Colleage* student1,Colleage* student2)
