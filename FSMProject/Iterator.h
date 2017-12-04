@@ -14,14 +14,14 @@
 #include <stdio.h>
 
 template <typename Type>
-class iterator {
+class iterator_ {
 public:
     virtual bool hasNext() = 0 ;
     virtual Type next() = 0 ;
 };
 
 template <typename Type>
-class arrayIterator : public iterator<Type> {
+class arrayIterator : public iterator_<Type> {
     
 private:
     Type* mData;

@@ -87,7 +87,12 @@ int main(int argc, const char * argv[]) {
     while (true)
     {
         t->Update() ;
-        usleep(33 * 1000);
+#ifdef _WIN32
+		Sleep( 33 * 1000 );
+#else
+		usleep( 33 * 1000 );
+#endif // _WIN32
+        
     }
     
     auto_ptr<RealSubject*> rt ;
